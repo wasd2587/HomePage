@@ -41,7 +41,7 @@
     </div>
     <div class="footer" v-if="$config.FOOTER_INFO">
       <i class="mdi mdi-fountain-pen-tip"></i> Designed By
-      <a href="https://github.com/EsunR/Blog-Index">EsunR</a>
+      <a href="https://github.com/wasd2587">Loyd-59</a>
     </div>
   </div>
 </template>

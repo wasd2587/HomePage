@@ -2,11 +2,11 @@ const SERVE = false; // 是否使用线上服务器
 
 const HOST = ""; // 线上服务器地址，如果不使用请留空
 
-const BLOG_NAME = "EsunR-Blog"; // 个人网站名字
+const BLOG_NAME = "WanderMoon"; // 个人网站名字
 
-const BLOG_URL = "https://blog.esunr.xyz"; // 个人网站链接（请填写完整链接）
+const BLOG_URL = ""; // 个人网站链接（请填写完整链接）
 
-const GITHUB = "https://github.com/EsunR"; // 右上角 Github 图标链接，留空不显示
+const GITHUB = "https://github.com/wasd2587"; // 右上角 Github 图标链接，留空不显示
 
 const BACKGROUND_IMG_URL = ""; // 背景图片url，留空默认为必应每日图片
 
@@ -21,17 +21,25 @@ const PAGES_DATA = [
   {
     pageId: 1,
     sortId: 1,
-    title: "工作",
-    subtitle: "美食食谱",
-    url: "http://www.wandermoon59.com:8999/",
+    title: "临时网盘",
+    subtitle: "小龙虾",
+    url: "https://disk.wandermoon59.com",
     icon: ""
   },
   {
     pageId: 2,
-    sortId: 1,
-    title: "学习",
-    subtitle: "交响乐欣赏",
-    url: "http://www.wandermoon59.com:10086/",
+    sortId: 2,
+    title: "JSON工具",
+    subtitle: "大盘鸡",
+    url: "https://www.bejson.com",
+    icon: ""
+  },
+  {
+    pageId: 1,
+    sortId: 2,
+    title: "文档",
+    subtitle: "千页豆腐",
+    url: "https://doc.wandermoon59.com/",
     icon: ""
   }
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
